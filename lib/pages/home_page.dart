@@ -59,7 +59,7 @@ class _HomePageState extends State<HomePage> {
    // _apiPostList1(post);
 
     //post
-    // var post=new Post(status: 'Axmadjon',data: {'id':1});
+    // var post=new Post(status: 'mark',data: {'id':1});
     // _apiCreateList(post);
 
     //put
@@ -75,9 +75,9 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.red,
+
       body:Center(
-        child:Text(data!=null?data:'No Data',style:TextStyle(color:Colors.white,)),
+        child:Text(data!=null?data:'No Data'),
       ),
     );
   }
